@@ -1,0 +1,68 @@
+body{
+    background-image: linear-gradient(to right, #fff ,#185a9d);
+    height: 100vh;
+    overflow: hidden;
+}
+img{
+    width: 200px;
+    height: 200px;
+}
+.one{
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    margin-top: -203px;
+}
+.container{
+    position: relative;
+    display: inline;
+}
+.two{
+    background-color: green;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    margin-left: 203px ;
+    margin-top: -203px;
+}
+.three{
+    background-color: green;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    margin-left: 408px ;
+    margin-top: -203px;
+
+}
+.four,.five,.six{
+    background-color: green;
+    position: absolute;
+    width: 200px;
+    height: 200px; 
+    display: inline;
+    margin-left: -203px; 
+     
+}
+.six{
+    margin-left: -200px; 
+}
+.new{
+    display: flex;
+    justify-content: center;
+    margin: 9vh;
+}
+.text{
+    display: flex;
+    justify-content: center;
+    margin-top: -30px;
+}
+.score{
+    margin-right: 20px;
+    
+}
+h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+}
